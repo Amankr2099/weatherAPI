@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(to right,rgb(22, 94, 153),rgb(16, 216, 173));
+    height: 100vh;
+}
+
+/* .container{
+    background: whitesmoke;
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+} */
+
+.entry-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    border-radius: 30px;
+    width: 30%;
+    margin: auto;
+    padding: 3%;
+    align-items: center;
+
+}
+
+.entry-container button{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-block: 2%;
+}
+
+#city_input{
+    width: 30%;
+    margin: auto;
+    margin-block: 2%;
+}
